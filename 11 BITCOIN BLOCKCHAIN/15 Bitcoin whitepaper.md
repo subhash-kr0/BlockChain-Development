@@ -1,0 +1,4 @@
+
+Bitcoin whitepaper, "Bitcoin: A Peer-to-Peer Electronic Cash System," ek prastuti hai jo ki 2008 mein Satoshi Nakamoto dwara likhi gayi thi. Is whitepaper mein Bitcoin ki mool samrachna aur uske karya tantra ko samjhane ke liye prastut kiya gaya hai. Yah whitepaper Bitcoin ke siddhant aur uske karya tantra ke adhar par sthapit hai.
+
+Is whitepaper mein, Satoshi Nakamoto ne ek naye prakar ke digital currency ka vivaran diya jo bina kisi madhyam se (jaise bank ya prasansh karne wale) sidhe vyakti se vyakti ke bheje ja sakta hai. Is digital currency ko "Bitcoin" kaha gaya aur iska mukhya uddeshya online vyavasayon aur vyaktigat len-den mein upayog hone wala ek anukool, surakshit aur avashyakta anusaar upayog kiya jane wala roop hai.
