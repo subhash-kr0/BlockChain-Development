@@ -1,0 +1,4 @@
+Execution clients are responsible for executing transactions and smart contracts on the Ethereum 2.0 network. There are two types of execution clients: light clients and full clients.
+
+Light clients: Light clients do not need to download the entire blockchain. They only need to download the headers of blocks, which is a small amount of data. This makes light clients faster and more efficient than full clients. However, light clients are less secure than full clients because they cannot verify the validity of all transactions.
+Full clients: Full clients download the entire blockchain. This makes them slower and less efficient than light clients. However, full clients are more secure because they can verify the validity of all transactions.

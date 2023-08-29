@@ -1,0 +1,4 @@
+Blockchain size: The Ethereum blockchain is growing rapidly, and the size of each block is limited. This means that the network can only process a limited number of transactions per second.
+Transaction fees: The gas price is determined by the market and can fluctuate depending on the demand for block space. The more congested the network is, the higher the gas price will be. This can make it expensive to use Ethereum for some applications.
+Congestion: The Ethereum network can become congested, which can lead to delays in transaction processing and high gas prices. This can be a problem for applications that require fast and reliable transactions.
+Security: The Ethereum network is secured by miners, who compete to solve complex mathematical problems in order to add new blocks to the blockchain. This process requires a lot of computing power, which can make it vulnerable to attacks.
