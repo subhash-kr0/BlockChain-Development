@@ -1,0 +1,7 @@
+Ethereum Virtual Machine (EVM): The EVM is a Turing-complete virtual machine that executes smart contracts. The EVM is responsible for executing the bytecode of smart contracts and managing the state of the blockchain.
+Solidity: Solidity is a programming language that is used to write smart contracts. Solidity is a statically typed language that is designed to be secure and efficient.
+ABI: The ABI is a standard way of describing the interface of a smart contract. The ABI defines the names, types, and order of the parameters and return values of the functions that are exposed by the smart contract.
+Blockchain: The blockchain is a distributed ledger that records all of the transactions that have ever taken place on the Ethereum network. The blockchain is used to store the state of the Ethereum network and to ensure the security and immutability of smart contracts.
+Wallets: Wallets are used to store Ether and interact with smart contracts. Wallets can be software wallets or hardware wallets.
+DApps: DApps are decentralized applications that are built on top of the Ethereum blockchain. DApps can be used to do a variety of things, such as send money, trade NFTs, and play games.
+These are just some of the main components of the Ethereum Smart Contracts architecture. There are many other components that are involved in the development and deployment of smart contracts.

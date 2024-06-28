@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+</head>
+<body>
+    <!-- css selector -->
+    <h1>css selector</h1>
+    <p>css selector is a pattern used to select the element(s) you want to style.</p>
+    <p>we can divide css selectors into five categories:</p>
+    <ul>
+        <li>simple selectors (select elements based on name, id, class)</li>
+        <li>combinator selectors (select elements based on a specific relationship between them)</li>
+        <li>pseudo-class selectors (select elements based on a certain state)</li>
+        <li>pseudo-elements selectors (select and style a part of an element)</li>
+        <li>attribute selectors (select elements based on an attribute or attribute value)</li>
+    </ul>
+    <h2>simple selectors</h2>
+    <p>simple selectors are based on the following:</p>
+    <ul>
+        <li>element name</li>
+        <li>id</li>
+        <li>class</li>
+        <li>universal</li>
+        <li>attribute</li>
+        <li>attribute value</li>
+    </ul>
+    <h3>element name</h3>
+    <p>selects all elements with the given tag name.</p>
+    <p>example:</p>
+    <pre>
+        <code>
+            p {
+                color: red;
+            }
+        </code>
+    </pre>
+    <h3>id</h3>
+    <p>selects an element based on the value of its id attribute.</p>
+    <p>example:</p>
+    <pre>
+        <code>
+            #para1 {
+                text-align: center;
+                color: red;
+            }
+        </code>
+    </pre>
+    <h3>class</h3>
+    <p>selects all elements with the given class.</p>
+    <p>example:</p>
+    <pre>
+        <code>
+            .center {
+                text-align: center;
+                color: red;
+            }
+        </code>
+    </pre>
+    <h3>universal</h3>
+    <p>selects all elements in the document.</p>
+    <p>example:</p>
+    <pre>
+        <code>
+            * {
+                text-align: center;
+                color: red;
+            }
+        </code>
+    </pre>
+    <h3>attribute</h3>
+    <p>selects all elements with the given attribute.</p>
+    <p>example:</p>
+    <pre>
+        <code>
+            a[target] {
+                background-color: yellow;
+            }
+        </code>
+    </pre>
+    <h3>attribute value</h3>
+    <p>selects all elements with the given attribute and value.</p>
+    <p>example:</p>
+    <pre>
+        <code>
+            a[target="_blank"] {
+                background-color: yellow;
+            }
+        </code>
+    </pre>
+    <h2>combinator selectors</h2>
+    <p>combinator selectors are used to combine multiple selectors into more specific selectors.</p>
+    <p>there are four different combinators in css:</p>
+    <ul>
+        <li>descendant selector (space)</li>
+        <li>child selector (>)</li>
+        <li>adjacent sibling selector (+)</li>
+        <li>general sibling selector (~)</li>
+    </ul>
+    <h3>descendant selector</h3>
+    <p>selects all elements that are descendants of a given ancestor.</p>
+    <p>example:</p>
+    <pre>
+        <code>
+            div p {
+                background-color: yellow;
+            }
+        </code>
+    </pre>
+    <h3>child selector</h3>
+    <p>selects all elements that are the children of a given element.</p>
+    <p>example:</p>
+    <pre>
+        <code>
+            div > p {
+                background-color: yellow;
+            }
+        </code>
+    </pre>
+    <h3>adjacent sibling selector</h3>
+    <p>selects all elements that are the adjacent siblings of a given element.</p>
+    <p>example:</p>
+    <pre>
+        <code>
+            div + p {
+                background-color: yellow;
+            }
+        </code>
+    </pre>
+    <h3>general sibling selector</h3>
+    <p>selects all elements that are the siblings of a given element.</p>
+    <p>example:</p>
+    <pre>
+        <code>
+            div ~ p {
+                background-color: yellow;
+            }
+        </code>
+    </pre>
+    <h2>pseudo-class selectors</h2>
+    <p>pseudo-class selectors are used to define the special state of an element.</p>
+    <p>for example, it can be used to:</p>
+    <ul>
+        <li>style an element when a user mouses over it</li>
+        <li>style visited and unvisited links differently</li>
+        <li>style an element when it gets focus</li>
+    </ul>
+    <p>there are many pseudo-class selectors available in css:</p>
+    <ul>
+        <li>:active</li>
+        <li>:checked</li>
+        <li>:disabled</li>
+        <li>:empty</li>
+        <li>:enabled</li>
+        <li>:first-child</li>
+        <li>:first-of-type</li>
+        <li>:focus</li>
+        <li>:hover</li>
+        <li>:in-range</li>
+        <li>:invalid</li>
+        <li>:lang(language)</li>
+        <li>:last-child</li>
+        <li>:last-of-type</li>
+        <li>:link</li>
+        <li>:not(selector)</li>
+        <li>:nth-child(n)</li>
+        <li>:nth-last-child(n)</li>
+        <li>:nth-last-of-type(n)</li>
+        <li>:nth-of-type(n)</li>
+        <li>:only-of-type</li>
+        <li>:only-child</li>
+        <li>:optional</li>
+        <li>:out-of-range</li>
+        <li>:read-only</li>
+        <li>:read-write</li>
+        <li>:required</li>
+        <li>:root</li>
+        <li>:target</li>
+        <li>:valid</li>
+        <li>:visited</li>
+    </ul>
+    
+    <h2>pseudo-elements selectors</h2>
+    <p>pseudo-elements selectors are used to style specified parts of an element.</p>
+    <p>for example, it can be used to:</p>
+    <ul>
+        <li>style the first letter, or line, of an element</li>
+        <li>insert content before, or after, the content of an element</li>
+    </ul>
+    <p>there are many pseudo-elements selectors available in css:</p>
+    <ul>
+        <li>::after</li>
+        <li>::before</li>
+        <li>::first-letter</li>
+        <li>::first-line</li>
+        <li>::selection</li>
+    </ul>
+    <h2>attribute selectors</h2>
+    <p>attribute selectors are used to select elements based on their attribute values.</p>
+    <p>there are many attribute selectors available in css:</p>
+    <ul>
+        <li>[attribute]</li>
+        <li>[attribute=value]</li>
+        <li>[attribute~=value]</li>
+        <li>[attribute|=value]</li>
+        <li>[attribute^=value]</li>
+        <li>[attribute$=value]</li>
+        <li>[attribute*=value]</li>
+    </ul>
+    <h2>css selector precedence</h2>
+    <p>if there are two or more conflicting css rules that point to the same element, the browser follows some rules to determine which one is most specific and therefore wins out.</p>
+    <p>the following list of selector types increases by specificity:</p>
+    <ul>
+        <li>type selectors (e.g., h1) and pseudo-elements (e.g., ::before).</li>
+        <li>class selectors (e.g., .example), attributes selectors (e.g., [type="radio"]) and pseudo-classes (e.g., :hover).</li>
+        <li>id selectors (e.g., #example).</li>
+    </ul>
+    <p>universal selector (*) has no specificity value (0, 0, 0, 0).</p>
+    <p>combinators (+, >, ~, ' ', ||) and negation pseudo-class (:not()) have no specificity value (0, 0, 0, 0) but are added where appropriate.</p>
+    <p>examples:</p>
+    <pre>
+        <code>
+            /* specificity: 0, 0, 0, 1 */
+            :link {
+                color: red;
+            }
+            /* specificity: 0, 0, 1, 0 */
+            ul li {
+                color: blue;
+            }
+            /* specificity: 0, 1, 0, 0 */
+            #myid {
+                color: green;
+            }
+            /* specificity: 1, 0, 0, 0 */
+            h1 {
+                color: yellow;
+            }
+            /* specificity: 0, 0, 0, 2 */
+            ul ol+li {
+                color: black;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            li.red.level {
+                color: silver;
+            }
+            /* specificity: 0, 0, 0, 3 */
+            style[type="text/css"] {
+                color: white;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:nth-child(2n+1) {
+                color: fuchsia;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:nth-last-child(2n+1) {
+                color: aqua;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:nth-of-type(2n+1) {
+                color: gray;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:nth-last-of-type(2n+1) {
+                color: lime;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:first-child {
+                color: maroon;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:last-child {
+                color: olive;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:first-of-type {
+                color: navy;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:last-of-type {
+                color: teal;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:only-child {
+                color: purple;
+            }
+            /* specificity: 0,
+            0, 0, 1 */
+            p:only-of-type {
+                color: orange;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:empty {
+                color: red;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:lang(it) {
+                color: blue;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:root {
+                color: green;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:nth-child(2n+1):not(:first-child) {
+                color: yellow;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:nth-child(2n+1):not(:last-child) {
+                color: black;
+            }
+            /* specificity: 0, 0, 0, 1 */
+            p:nth-child(2n+1):not(:only-child) {
+                color: silver;
+            }
+
+        </code>
+    </pre>
+    <h2>css selector list</h2>
+    <p>you can group selectors to apply the same styles to several selectors.</p>
+    <p>to group selectors, separate each selector with a comma.</p>
+    <p>example:</p>
+    <pre>
+        <code>
+            h1, h2, p {
+                text-align: center;
+                color: red;
+            }
+        </code>
+    </pre>
+</body>
+</html>

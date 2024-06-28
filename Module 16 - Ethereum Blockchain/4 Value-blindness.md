@@ -1,0 +1,4 @@
+
+"Value-blindness" is a term used to describe a characteristic of certain blockchain technologies, particularly in the context of privacy and anonymity. It refers to the idea that blockchain systems are designed to be neutral and impartial with respect to the value or content of the transactions they record. In other words, blockchain systems do not inherently distinguish between different types of transactions based on their monetary value or the specific data they contain.
+
+This characteristic is often emphasized in discussions about privacy-focused blockchains, where the goal is to ensure that transaction details, including sender and recipient addresses and transaction amounts, are kept confidential. By being "value-blind," a blockchain network doesn't reveal any information about the content of transactions beyond what is necessary for verification and consensus.

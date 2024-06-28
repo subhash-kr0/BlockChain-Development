@@ -1,0 +1,12 @@
+// How does BlockChain work
+  1. Facilitating a transaction -  A new transaction enters the blockchain network. All the information that needs to be transmitted is doubly encrypted using public and private keys.
+
+  2. Verification of Transaction - The transaction is then transmitted to the network of peer-to-peer computers distributed across the world. All the nodes on the network will check for the validity of the transaction like if a sufficient balance is available for carrying out the transaction.
+
+  3. Formation of new Block - In a typical blockchain network there are many nodes and many transactions get verified at a time. Once the transaction is verified and declared a legitimate transaction, it will be added to the mempool.  All the verified transactions at a particular node form a mempool and such multiple mempools form a block.
+
+  4. Consensus Algorithm -  The nodes that form a block will try to add the block to the blockchain network to make it permanent. But if every node is allowed to add blocks in this manner then it will disrupt the working of the blockchain network. To solve this problem, the nodes use a consensus mechanism to ensure that every new block that is added to the Blockchain is the one and only version of the truth that is agreed upon by all the nodes in the Blockchain, and only a valid block is securely attached to the blockchain. The node that is selected to add a block to the blockchain will get a reward and hence we call them “miners”. The consensus algorithm creates a hash code for that block which is required to add the block to the blockchain.
+
+  5. Addition of the new block to the blockchain - After the newly created block has got its hash value and is authenticated, now it is ready to be added to the blockchain. In every block, there is a hash value of the previous block and that is how the blocks are cryptographically linked to each other to form a blockchain. A new block gets added to the open end of the blockchain.
+
+  6. Transaction complete - As soon as the block is added to the blockchain the transaction is completed and the details of this transaction are permanently stored in the blockchain. Anyone can fetch the details of the transaction and confirm the transaction.

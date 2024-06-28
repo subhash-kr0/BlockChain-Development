@@ -1,0 +1,5 @@
+In the context of blockchain and smart contract platforms, "Turing-completeness" refers to the ability of a programming language to perform any computation that can be described algorithmically. A Turing-complete language can simulate a Turing machine, which is a theoretical construct capable of solving a wide range of computational problems.
+
+Ethereum's scripting language, Solidity, is Turing-complete, which means that developers can create complex and arbitrarily expressive smart contracts on the Ethereum blockchain. These smart contracts can perform a wide variety of tasks and computations, making Ethereum a flexible platform for decentralized applications.
+
+In contrast, the scripting language used in the Bitcoin blockchain is intentionally limited and not Turing-complete. While Bitcoin's scripting language allows for the creation of certain types of transactions and conditions, it doesn't support the full range of computations and complexities that a Turing-complete language like Solidity does.

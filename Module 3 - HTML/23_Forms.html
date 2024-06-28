@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" autofocus placeholder="name" value="Zeno" readonly required>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="email" value="">
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="password" value="password">
+        </fieldset>
+    </form>
+
+    <form action="data.php" method="get" method="post" enctype="multipart/form-data">
+
+        <label for="name">Enter name</label>
+        <input type="text" placeholder="username" name="name" required>
+        <br>
+        <label for="age">age</label>
+        <input type="number" name="age" placeholder="age">
+        <br>
+        <input type="file" name="file" id="" placeholder="file">
+        <br>
+        <input type="radio" name="gender" id="">male
+        <input type="radio" name="gender" id="">female
+        <br>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">    
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+
+    </form>
+
+
+</body>
+</html>
